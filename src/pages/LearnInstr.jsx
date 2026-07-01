@@ -1,7 +1,8 @@
 import instructor1 from "../assets/RahulSharma.jpg";
 import instructor2 from "../assets/PriyaVerma.jpg";
 import instructor3 from "../assets/AmitKumar.jpg";
-import instructor4 from "../assets/liveInstructor.jpg";
+import instructor4 from "../assets/LiveInstructor.jpg";
+
 
 function Instructors() {
   const instructors = [
