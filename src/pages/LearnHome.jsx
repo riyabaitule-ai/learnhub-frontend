@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import banner from "../assets/homeBanner2.png";
-import liveInstructor from "../assets/LiveInstructor.jpg";
+import liveInstructor from "../assets/liveInstructor.jpg";   // ✅ fixed import name
 import practicalPortfolio from "../assets/PracticalPortfolio.jpg";
 import careerSupport from "../assets/learnHome5.jpg";
 
@@ -38,7 +38,7 @@ function LearnHome() {
 
       <div className="feature-grid">
         <article className="feature-box">
-          <img src={liveInstructor} alt="Live classes" />
+          <img src={liveInstructor} alt="Live classes" />   {/* ✅ fixed usage */}
           <h3>Live instructor-led sessions</h3>
           <p>Work through real problems with expert trainers and weekly Q&amp;A.</p>
         </article>
